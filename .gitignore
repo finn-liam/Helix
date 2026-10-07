@@ -14,5 +14,3 @@ wheels/
 # reference repos for study (pi / mu)
 reference/
 
-# build output
-dist/

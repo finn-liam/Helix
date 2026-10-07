@@ -1,7 +1,7 @@
 [project]
 name = "helix"
 version = "0.1.0"
-description = "Add your description here"
+description = "A Python-native agent runtime built from scratch, with a judgment kernel."
 readme = "README.md"
 authors = [
     { name = "finn-liam", email = "18792202607@163.com" }
@@ -27,3 +27,9 @@ dev = [
     "pytest-asyncio>=1.4.0",
     "ruff>=0.16.10",
 ]
+[tool.ruff]
+line-length = 100
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
